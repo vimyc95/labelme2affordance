@@ -13,6 +13,26 @@ pip install opencv-python-headless==4.12.0.88
 ```bash
 python labelme2aff.py --input_dir data/  --output_dir data_aff/
 ```
+## Annotation Method
+The following image illustrates the annotation process:
+
+<!-- ![](assert/example.png) -->
+<img src="assert/example.png" width="800">
+---
+
+### labels
+```
+${obj_number}_{object_name}_{affordance_part_name}
+
+# example
+1_hammer_grasp
+1_hammer_pound
+2_hammer_grasp
+2_hammer_pound
+3_knife_cut
+3_knife_grasp
+...
+```
 
 ### Output
 After running the script, the following will be generated:
@@ -25,6 +45,6 @@ After running the script, the following will be generated:
 Note: All masks shown here are multiplied by 30 to enhance pixel intensity for better visualization.
 |RGB Image|Object 1|
 :---:|:---:|
-| ![RGB](assert/img0001.jpg) | ![](assert/img0001_1_segmask.png) |
+| ![](assert/img0001.jpg) | ![](assert/img0001_1_segmask.png) |
 |Object 2|Object 3|
 | ![](assert/img0001_2_segmask.png) | ![](assert/img0001_3_segmask.png) |
