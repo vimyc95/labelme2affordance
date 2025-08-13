@@ -18,9 +18,8 @@ The following image illustrates the annotation process:
 
 <!-- ![](assert/example.png) -->
 <img src="assert/example.png" width="800">
----
 
-### labels
+### label
 ```
 ${obj_number}_{object_name}_{affordance_part_name}
 
