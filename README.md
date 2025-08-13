@@ -22,6 +22,7 @@ After running the script, the following will be generated:
  
 
 ### Result Preview
+Note: All masks shown here are multiplied by 30 to enhance pixel intensity for better visualization.
 |RGB Image|Object 1|
 :---:|:---:|
 | ![RGB](assert/img0001.jpg) | ![](assert/img0001_1_segmask.png) |

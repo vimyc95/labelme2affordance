@@ -9,4 +9,4 @@ for n in range(1, aff_num+1):
         plt.imshow(img)
         plt.show()
         # plt.savefig("assert/img0001_{}_segmask.png".format(n))
-        cv2.imwrite("assert/img0001_{}_segmask.png".format(n), img)
+        cv2.imwrite("assert/img0001_{}_segmask.png".format(n), img*30)
