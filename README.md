@@ -1,4 +1,4 @@
-# Convert labelme format to affordance format
+# Convert labelme to affordance (IIT-AFF dataset format)
 
 ## Installation
 ```bash
